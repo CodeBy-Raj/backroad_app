@@ -1,9 +1,9 @@
 import React from 'react'
+import NavLinks from './NavLinks'
+import SocialIcons from './SocialIcons'
 
-function Navbar() {
+const Navbar = () => {
   return (
-  <>
- 
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
@@ -12,31 +12,10 @@ function Navbar() {
             <i className="fas fa-bars"></i>
           </button>
         </div>
-
-        {/* <!-- left this comment on purpose --> */}
-      
-
-        <ul className="nav-icons">
-          <li>
-            <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-              ><i className="fab fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-              ><i className="fab fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-              ><i className="fab fa-squarespace"></i
-            ></a>
-          </li>
-        </ul>
+        <NavLinks />
+        <SocialIcons/>
       </div>
-    </nav> 
-    </>
-  )
-}
-
-export default Navbar
+    </nav>
+  );
+};
+export default Navbar;

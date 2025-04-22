@@ -1,4 +1,5 @@
 import React from 'react'
+import { menuItems } from '../data'
 
 const  Menu=({name , link})=> {
 
