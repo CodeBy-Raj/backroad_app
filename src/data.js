@@ -12,3 +12,6 @@ export const socialItems = [
     {icon:'fab fa-squarespace', link:'www.squarespace.com'}
 ];
 
+export const sectionTitle = [
+    {}
+]

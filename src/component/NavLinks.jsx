@@ -5,7 +5,7 @@ const  Menu=({name , link})=> {
 
     return (
         <li>
-        <a href="{link}" className="nav-link"> {name} </a>
+        <a href={link} className="nav-link"> {name} </a>
       </li>
     )
 }

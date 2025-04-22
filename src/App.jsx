@@ -9,7 +9,6 @@ import Footer from './component/Footer'
 const  App = () => {
   return (
     <div>
-      <h1>HARSH</h1>
       <Navbar/>
       <Hero/>
       <Services/>
