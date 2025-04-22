@@ -1,43 +1,19 @@
 import React from 'react'
 import Heading from './Heading'
+import ServicesCard from './ServicesCard'
 
 function Services() {
   return (
     <section className="section services" id="services">
    <Heading btitle="our" gtitle=" services"/>
-   
+
     <div className="section-center services-center">
-      <article className="service">
-        <span className="service-icon"><i className="fas fa-wallet fa-fw"></i></span>
-        <div className="service-info">
-          <h4 className="service-title">saving money</h4>
-          <p className="service-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Asperiores, officia.
-          </p>
-        </div>
-      </article>
+      <ServicesCard title="saving money" details=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Asperiores, officia." icon="fas fa-wallet fa-fw"/>
 
-      <article className="service">
-        <div className="service-info">
-          <h4 className="service-title">endless hiking</h4>
-          <p className="service-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Asperiores, officia.
-          </p>
-        </div>
-      </article>
+     <ServicesCard title="endless hiking" icon="fas fa-socks fa-fw" details="jfkjashfkashkf f fjashjfsfsjfjslf"/>
+     <ServicesCard title="amazing comfort" icon="fas fa-socks fa-fw" details="ldjfjlshfjjshfskfhsjkf jfhjksfhksf"/>
 
-      <article className="service">
-        <span className="service-icon"><i className="fas fa-socks fa-fw"></i></span>
-        <div className="service-info">
-          <h4 className="service-title">amazing comfort</h4>
-          <p className="service-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Asperiores, officia.
-          </p>
-        </div>
-      </article>
     </div>
   </section>
   )
