@@ -444,6 +444,13 @@ Variables
   .copyright span {
     margin-left: 0.5rem;
   }
+  .credit{
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    color: var(--clr-white);
+    
+    
+  }
   /*
   =============== 
   Navbar

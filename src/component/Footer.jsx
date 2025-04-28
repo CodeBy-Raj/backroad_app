@@ -44,6 +44,10 @@ function Footer() {
         copyright &copy; Backroads travel tours company
         <span id="date"></span> all rights reserved
       </p>
+      <p className="credit">
+        Developed and  Maintained By
+        <span id="date"></span> <b>Harsh Raj (2300320120105)</b>
+      </p>
     </footer>
   )
 }
